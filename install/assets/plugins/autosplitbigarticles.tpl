@@ -1,21 +1,17 @@
 //<?php
-/*
- *  Name AutoSplitBigArticle (Plugin)
- *  Version: 1.1
- *  Author: Yuri Shkatula "Terjer" ( ria@kuzbass.com)
- *  Based on Pip (Pagination Plugin)
- *  Author: Armand "bS" Pondman (apondman@zerobarrier.nl)
+/**
+ * AutoSplitBigArticle
+ * 
+ * will paginate a document when count delimiter per page is found in the content.
  *
- *
- *  Description:
- *  will paginate a document when count delimiter per page is found in the content.
- *
- *  Configuration:
- *  check the OnLoadWebDocument event
- *
- *    optional:
- *      Edit the values under the CUSTOMIZE Header
- *
+ * @category    plugin
+ * @version     1.1
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
+ * @internal    @properties
+ * @internal    @events OnLoadWebDocument
+ * @internal    @modx_category Content
+ * @internal    @legacy_names AutoSplitBigArticle
+ * @internal    @installset base, sample
  */
  
 ## CUSTOMIZE ##
